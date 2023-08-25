@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import MyForm from './MyForm';
+import CustomerList from './CustomerList';
 import "./app.css";
 
 class App extends Component {
@@ -15,6 +16,8 @@ class App extends Component {
                   </div>
                   <div className="ui main container">
                     <MyForm />
+
+                    <CustomerList />
 
                   </div>
             </div>
